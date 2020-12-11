@@ -1,6 +1,6 @@
 import * as MutationTypes from './mutation-types';
 import { validURL } from '@/utils';
-
+ 
 import axios from 'axios';
 import { isGeoJSONValid } from '../utils';
 export default {
