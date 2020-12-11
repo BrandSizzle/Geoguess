@@ -95,7 +95,7 @@ export default {
             const maps = await axios
                 .get(
                     process.env.VUE_APP_LIST_MAPS_JSON_URL ||
-                        'https://gist.githubusercontent.com/BrandSizzle/fa6ca8a8a1fd4c5375af4ed39320ccdc/raw/c1bc58154c9856c3a9b821db4cda2d201b354b1e/maps.json'
+                        'https://gist.githubusercontent.com/BrandSizzle/fa6ca8a8a1fd4c5375af4ed39320ccdc/raw/5d3d2a0dd4a262df5bd1cc1379f3d94467ad1793/maps.json'
                 )
                 .then((res) => res.data.maps);
 
